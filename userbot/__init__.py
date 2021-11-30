@@ -188,7 +188,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Geez-UserBot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Zivo-Userbot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "5.0")
@@ -347,7 +347,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```𝘊𝘰𝘯𝘨𝘳𝘢𝘵𝘴𝘴... ⚡𝘎𝘦𝘦𝘻 𝘜𝘚𝘌𝘙𝘉𝘖𝘛⚡ Has Been Active!!```")
+    await bot.send_message(BOTLOG_CHATID, "```SELAMAT⚡𝙕𝙄𝙑𝙊-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ TELAH BERHASIL DIAKTIFKAN !!!```")
     return
 
 with bot:
@@ -458,7 +458,7 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"Hallo [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang Di\n**Geez - Project**\nKalo mau tau lebih lanjut silahkan Join Ke \n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
+                    f"Hallo [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang Di\n**Zivo-Project**\nKalo mau tau lebih lanjut silahkan Join Ke \n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
@@ -478,7 +478,7 @@ with bot:
                 ms = (end - start).microseconds / 1000
                 await tgbot.send_message(
                     event.chat_id,
-                    f"**PONG!!**\n `{ms}ms`",
+                    f"**KEKUATAN SUPER ZIVO!!**\n `{ms}ms`",
                 )
 
         @tgbot.on(
@@ -520,7 +520,7 @@ with bot:
             else:
                 result = builder.article(
                     " ⚡𝙕𝙄𝙑𝙊-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
-                    text="""**⚡𝙕𝙄𝙑𝙊-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\n\n Anda Bisa Membuat Zivo Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    text="""**⚡𝙕𝙄𝙑𝙊-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\n\n Anda Bisa Membuat Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
