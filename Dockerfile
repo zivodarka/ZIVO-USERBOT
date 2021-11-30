@@ -1,7 +1,7 @@
 # We're using Ubuntu 20.10
 FROM vckyouuu/geezprojects:buster
 
-RUN git clone -b Geez-UserBot https://github.com/zivodarka/ZIVO-USERBOT /root/userbot
+RUN git clone -b ⚡𝙕𝙄𝙑𝙊-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ https://github.com/zivodarka/ZIVO-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
