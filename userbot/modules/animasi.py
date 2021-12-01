@@ -86,6 +86,54 @@ async def typewriter(typew):
                      "\n╰━━━┻━━┻━━┻━━┻━╯")
 
 
+@register(outgoing=True, pattern='^.sepia(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("`sepia owner kalem di ctv`")
+    sleep(2)
+    await typew.edit("`owner ctv kerenn abiezz`")
+    sleep(1)
+    await typew.edit("`Dan yang terakhir adalah diaa jombloo xixi ngakak abiezz`")
+
+# Create by myself @localheart
+
+@register(outgoing=True, pattern='^.jamal(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("`jamal C.O paling kerennn `")
+    sleep(2)
+    await typew.edit("`gantengg dan pemberani anjayy`")
+    sleep(1)
+    await typew.edit("`Dan yang terakhir sering menggoda betina di ctv xixi ngakak abiezz`")
+
+# Create by myself @localheart
+
+@register(outgoing=True, pattern='^.jipo(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("`jipo itu malaikat baik di ctv`")
+    sleep(2)
+    await typew.edit("`paling baik dan kalem`")
+    sleep(1)
+    await typew.edit("`dan satu lagi paling dikangenin keluarga ctv serta ganteng dan pemberani`")
+
+# Create by myself @localheart
+
+@register(outgoing=True, pattern='^.jasmine(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("`perempuan cantik dan kalem`")
+    sleep(2)
+    await typew.edit("`Kedua kamu manis`")
+    sleep(1)
+    await typew.edit("`Dan yang terakhir punya jipo serta cantiknya jipoo`")
+
+# Create by myself @localheart
+
 CMD_HELP.update({
     "animasi2":
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sadboy`\
