@@ -173,6 +173,33 @@ async def _(event):
 
             await event.edit(animation_chars[i % 6])
 
+@register(outgoing=True, pattern='^.mualaf(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`LU KEREN? MASUK MUALAF TIDAK`")
+    await e.edit("`TIDAKKKKK,,`")
+    await e.edit("`CUIHH LEMAHHH`")
+    await e.edit("`🔥MUALAF MENYALA🔥`")
+    await e.edit("`DISITULAH GC LAIN TIDAK BERDAYA`")
+    await e.edit("🔥🔥🔥🔥")
+    await e.edit("💥💥💥💥")
+    await e.edit("🔥🔥🔥🔥")
+    await e.edit("💥💥💥💥")
+    sleep(3)
+    await typew.edit("`MUALAF NIH BOSS`")
+    sleep(2)
+    await typew.edit("`MUALAF TERBENTUK DARI TANGAN TANGAN PENUH DOA DAN LINGKARAN TASBIH,MUALAF ADALAH SUATU KELOMPOK YANG DI BANGUN DENGAN SEBUAH DOA YANG SANGAT KUAT SEHINGGA SANGAT SULIT UNTUK ROBOH`")
+
+
+@register(outgoing=True, pattern='^.zivo(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`HALLO ASSALAMUALAIKUM GAES`")
+    sleep(2)
+    await typew.edit("`PERKENALKAN NAMA SAYA ZIVO PEMBERANTAS PIHAK LAWAN SAMPE VERTIGO`")
+    sleep(3)
+    await typew.edit("`MWHEHEHE ANJAYYY`")
+
 CMD_HELP.update({
     "animasi1":
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.nah` ; `.huh` ; `.owner`\
