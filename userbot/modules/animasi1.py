@@ -196,7 +196,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`HALLO ASSALAMUALAIKUM GAES`")
     sleep(2)
-    await typew.edit("`PERKENALKAN NAMA SAYA ZIVO PEMBERANTAS PIHAK LAWAN SAMPE VERTIGO`")
+    await typew.edit("`KENALIN DULU NAMA GUE ZIVO PEMBERANTAS BOCAH BEGO SAMPE VERTIGO`")
     sleep(3)
     await typew.edit("`MWHEHEHE ANJAYYY`")
 
